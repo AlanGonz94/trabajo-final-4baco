@@ -5,7 +5,7 @@
   height: 100vh; /* Altura 100% de la ventana */
   font-weight: bold; /* Texto en negrita */
   color: #ffffff; /* Color del texto en blanco */
-  text-shadow: 15px 15px #222; /* Efecto de sombra en el texto */
+  text-shadow: 15px 15px #041d6d; /* Efecto de sombra en el texto */
   font-size: 80px; /* Tamaño de fuente */
 }
 
@@ -17,6 +17,10 @@
 }
 .yellowText {
   color: goldenrod; /* Color dorado */
+}
+
+.greenText {
+  color: rgb(25, 105, 25); /* Verde */
 }
 
 /* Sección de información */
@@ -36,7 +40,7 @@
   
 /* Estilo del título */
 .infoContainer .title {
-  font-size: 60px; /* Tamaño de fuente */
+  font-size: 600%; /* Tamaño de fuente */
   font-weight: bold; /* Texto en negrita */
 }
 

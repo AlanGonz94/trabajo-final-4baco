@@ -1,0 +1,22 @@
+/* Estilo de la barra de navegacion*/
+.navbar {
+    display: flex; /*utiliza el modelo flexible de diseño*/
+    background-color: black; /*color de fondo*/
+    height: 80px; /*Altura de la barra de navegacion*/
+    padding: 20px; /*Espaciado interno alrededor del contenido*/
+    position: sticky; /*posicion pegajosa*/
+    top: 0; /*se mantendra pegajosa en la parte superior*/
+    z-index: 1000; /*nivel de apilamiento en capas*/
+}
+
+/* Estilo de los elementos de la barra de navegacion*/
+.navbarItem {
+    padding: 10px 20px; /*espaciado interno en la parte superior e inferior de 10px*/
+    color: white; /*color del texto*/
+    cursor: pointer; /*el cursor se convierte en una mano al pasar sobre el elemento*/
+    border-top: 4px solid transparent; /*borde superior transparente por defecto*/
+}
+
+.selected {
+    border-color: #daa520; /*cambia el color del borde superior seleccionado*/
+}
